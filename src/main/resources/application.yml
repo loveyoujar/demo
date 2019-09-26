@@ -27,3 +27,13 @@ eureka:
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.ltq.demo.entity
+
+
+stmp:
+  host: smtp.qq.com #服务器地址
+  account: xxxxxx@qq.com #邮箱账户
+  password: xxxxxxx #授权码
+mail:
+  smtp:
+    auth: true
+    timeout: 25000
